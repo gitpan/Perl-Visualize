@@ -9,7 +9,7 @@ require Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw( etch paint );
 
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 sub readgif {
   my($io, $chrs) = @_;
@@ -160,7 +160,7 @@ embed a trivial perl program in it using the following snippet:
 	      <table width="100%">
 		  <tr>
 		    <td width="30%">
-		      <center><img src="http://www.cs.auckland.ac.nz/~jas/CPAN/Perl-Visualize/examples/world.gif" alt=""></center>
+		      <center><img src="http://search.cpan.org/src/JNAGRA/Perl-Visualize-1.02/examples/world.gif" alt=""></center>
 		    </td>
 		    <td width="5%">+</td>
 		    <td width="30%">
@@ -171,7 +171,7 @@ embed a trivial perl program in it using the following snippet:
 		    <td width="5%">=</td>
 		    <td>
 		      <center>
-			<a href="http://www.cs.auckland.ac.nz/~jas/CPAN/Perl-Visualize/examples/helloworld.gif">helloworld.gif</a>
+			<a href="http://search.cpan.org/src/JNAGRA/Perl-Visualize-1.02/examples/helloworld.gif">helloworld.gif</a>
 		      </center>
 		    </td>
 		  </tr>
@@ -179,9 +179,9 @@ embed a trivial perl program in it using the following snippet:
 
 =end html
 
-Original image L<http://www.cs.auckland.ac.nz/~jas/CPAN/Perl-Visualize/examples/world.gif>
+Original image L<http://search.cpan.org/src/JNAGRA/Perl-Visualize-1.02/examples/world.gif>
 
-Polyglot image L<http://www.cs.auckland.ac.nz/~jas/CPAN/Perl-Visualize/examples/helloworld.gif>
+Polyglot image L<http://search.cpan.org/src/JNAGRA/Perl-Visualize-1.02/examples/helloworld.gif>
 
 This results in a valid GIF file can be directly executed by the perl
 interpreter simply by calling C<perl helloworld.gif> or viewed in any
@@ -213,7 +213,7 @@ AT&T.
 	      <table width="100%">
 		  <tr>
 		    <td width="30%">
-		      <center><img src="http://www.cs.auckland.ac.nz/~jas/CPAN/Perl-Visualize/examples/fibo.gif" alt=""></center>
+		      <center><img src="http://search.cpan.org/src/JNAGRA/Perl-Visualize-1.02/examples/fibo.gif" alt=""></center>
 		    </td>
 		    <td width="5%">+</td>
 		    <td width="30%">
@@ -232,7 +232,7 @@ fib(10,1,1);
 		    <td width="5%">=</td>
 		    <td>
 		      <center>
-			<a href="http://www.cs.auckland.ac.nz/~jas/CPAN/Perl-Visualize/examples/v-fibo.gif">v-fibo.gif</a>
+			<a href="http://search.cpan.org/src/JNAGRA/Perl-Visualize-1.02/examples/v-fibo.gif">v-fibo.gif</a>
 		      </center>
 		    </td>
 		  </tr>
@@ -240,17 +240,17 @@ fib(10,1,1);
 
 =end html
 
-Original image L<http://www.cs.auckland.ac.nz/~jas/CPAN/Perl-Visualize/examples/fibo.gif>
+Original image L<http://search.cpan.org/src/JNAGRA/Perl-Visualize-1.02/examples/fibo.gif>
 
-Embedded code L<http://www.cs.auckland.ac.nz/~jas/CPAN/Perl-Visualize/examples/fibo.pl>
+Embedded code L<http://search.cpan.org/src/JNAGRA/Perl-Visualize-1.02/examples/fibo.pl>
 
-Polyglot image L<http://www.cs.auckland.ac.nz/~jas/CPAN/Perl-Visualize/examples/v-fibo.gif>
+Polyglot image L<http://search.cpan.org/src/JNAGRA/Perl-Visualize-1.02/examples/v-fibo.gif>
 
 =head2 The Art of Computer Programs
 
 Piet is a programming language in which programs look like abstract
 paintings.  A complete description of the language can be found at
-L<http://www.physics.usyd.edu.au/~mar/esoteric/piet.html>.  There is a
+L<http://www.dangermouse.net/esoteric/piet.html>.  There is a
 module L<Piet::Interpreter|Piet::Interpreter> that executes Piet.  We
 can use Perl::Visualize and this module to make Piet programs directly
 executable using perl.
@@ -273,7 +273,7 @@ executable using perl.
 	      <table width="100%">
 		  <tr>
 		    <td width="30%">
-		      <center><img src="http://www.cs.auckland.ac.nz/~jas/CPAN/Perl-Visualize/examples/piet.gif" alt=""></center>
+		      <center><img src="http://search.cpan.org/src/JNAGRA/Perl-Visualize-1.02/examples/piet.gif" alt=""></center>
 		    </td>
 		    <td width="5%">+</td>
 		    <td width="30%">
@@ -287,7 +287,7 @@ executable using perl.
 		    <td width="5%">=</td>
 		    <td>
 		      <center>
-			<a href="http://www.cs.auckland.ac.nz/~jas/CPAN/Perl-Visualize/examples/v-piet.gif">v-piet.gif</a>
+			<a href="http://search.cpan.org/src/JNAGRA/Perl-Visualize-1.02/examples/v-piet.gif">v-piet.gif</a>
 		      </center>
 		    </td>
 		  </tr>
@@ -295,9 +295,9 @@ executable using perl.
 
 =end html
 
-Original image L<http://www.cs.auckland.ac.nz/~jas/CPAN/Perl-Visualize/examples/piet.gif>
+Original image L<http://search.cpan.org/src/JNAGRA/Perl-Visualize-1.02/examples/piet.gif>
 
-Polyglot image L<http://www.cs.auckland.ac.nz/~jas/CPAN/Perl-Visualize/examples/v-piet.gif>
+Polyglot image L<http://search.cpan.org/src/JNAGRA/Perl-Visualize-1.02/examples/v-piet.gif>
 
 Note that the program we embed is very simple.  It simply calls the
 Piet::Interpreter with itself (C<$0>) as the argument.  This example
@@ -449,7 +449,7 @@ Finally, we embed the edited C<$_> in a GIF file.
   Perl::Visualize::paint ( '99.gif', '99.gif', "\$_=<<'CODE';\n${_}CODE".$1);
 
 
-Polyglot image L<http://www.cs.auckland.ac.nz/~jas/CPAN/Perl-Visualize/examples/99.gif>
+Polyglot image L<http://search.cpan.org/src/JNAGRA/Perl-Visualize-1.02/examples/99.gif>
 
 =head1 HOW IT ALL WORKS
 
@@ -672,7 +672,7 @@ writing this module. C<:-)>
 
 =head1 AUTHOR
 
-Jasvir Nagra, E<lt>http://www.cs.auckland.ac.nz/~jasE<gt>
+Jasvir Nagra http://www.cs.auckland.ac.nz/~jas
 
 =head1 COPYRIGHT AND LICENSE
 

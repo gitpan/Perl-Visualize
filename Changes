@@ -9,3 +9,6 @@ Revision history for Perl extension Perl::Visualize.
 
 1.01  Wed Jul  2 19:11:03 2003
         - uploaded to CPAN with minor changes to perldoc
+
+1.02  Mon Jul  7 07:58:40 2003
+	- corrected broken URL to Piet (thanks to Xavier Noria)
